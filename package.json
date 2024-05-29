@@ -1,0 +1,27 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1",
+    "mongoose": "^7.4.5"
+  },
+  "devDependencies": {
+    "@apollo/server": "^4.10.4",
+    "@types/bcryptjs": "^2.4.6",
+    "@graphql-tools/merge": "^9.0.0",
+    "@types/node": "^20.12.13",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.4.5"
+  }
+}
